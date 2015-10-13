@@ -2,7 +2,7 @@
   "name": "qipp-config-environment",
   "version": "0.1.0",
   "title": "Environment configuration",
-  "description": "Environment configuration file for the flatapp clients.",
+  "description": "Environment configuration file for the ATH clients.",
   "keywords": [
     "qipp",
     "organize",
@@ -10,12 +10,13 @@
   ],
   "homepage": "https://www.qipp.com/",
   "author": {
-    "name": "AQUANTUM",
-    "url": "http://www.aquantum.de/"
+    "name": "qipp",
+    "email": "dev@qipp.com",
+    "url": "http://www.qipp.com/"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@bitbucket.org:aquantum/qipp-config-environment.git"
+    "url": "https://github.com/qipp/qipp-config-environment"
   },
   "devDependencies": {
     "angular": "1.4.3",
