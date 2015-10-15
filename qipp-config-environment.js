@@ -8,9 +8,7 @@
             function (
                 config
             ) {
-                var prefix =
-                        (window.location.href.match(/([dev|staging]+-{1})/) || [''])
-                        .shift(),
+                var prefix = window.location.href.match(/(dev|staging)-/g) || '',
                     domain = '.qipp.com',
                     protocol = 'https://';
                 config.api.host = protocol + prefix + 'home' + domain;
