@@ -1,6 +1,6 @@
 {
   "name": "qipp-config-environment",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "Environment configuration",
   "description": "Environment configuration file for the ATH clients.",
   "keywords": [
