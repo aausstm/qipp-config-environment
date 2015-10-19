@@ -12,7 +12,8 @@
                     domain = '.qipp.com',
                     protocol = 'https://';
                 config.api.host = protocol + prefix + 'home' + domain;
-                config.auth.host = protocol + prefix + 'auth' + domain;
+                config.auth.host =  '';
+                config.auth.prefix =  '/auth/';
             }
         ]);
 
